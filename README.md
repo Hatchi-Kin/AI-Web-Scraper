@@ -2,12 +2,11 @@
 
 This project is an AI-powered web scraper that uses Selenium, BeautifulSoup, and LangChain to scrape and parse web content.
 
-
 ## Pre-requisites
 
-- Ollama needs to be installed, the code uses llama3.2
-- chrome driver can be downloaded from https://googlechromelabs.github.io/chrome-for-testing/#stable
-- and a auth token can be obtained from Bright Data and set in the .env file
+- **Ollama**: Ensure Ollama is installed as the code uses `llama3.2`.
+- **Chrome Driver**: Download the Chrome driver from [Chrome for Testing](https://googlechromelabs.github.io/chrome-for-testing/#stable).
+- **Auth Token**: Obtain an auth token from Bright Data and set it in the `.env` file.
 
 ## Setup
 
@@ -58,3 +57,11 @@ This project is an AI-powered web scraper that uses Selenium, BeautifulSoup, and
 - lxml
 - html5lib
 - python-dotenv
+
+## Project Structure
+
+- `main.py`: The entry point for the Streamlit app.
+- `scrape.py`: Contains functions to scrape and clean website content.
+- `parse.py`: Contains functions to parse the scraped content using LangChain.
+- `example.env`: Example environment file to set up necessary environment variables.
+- `requirements.txt`: List of dependencies required for the project.
